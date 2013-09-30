@@ -1,0 +1,16 @@
+Given string is a long name, that includes several words.
+Words should be separated by only one dash ("-") character. Remove all extra dashes.
+
+Input: A long name with several words. A string (Unicode for python2.7).
+
+Output: A long name without extra dashes. A string.
+
+NOTE: To solve the task, click the "Solve It" button to the right. The text box below is for comments on the task.
+
+Example:
+
+checkio('I---like--python') == "I-like-python"
+
+How it is used: Some symbols are placed near each other look as one for human eye. But it is not so for programs. Thus
+ the strings normalization is very significant part for OCR (optical character recognition) systems. Also it's critical
+ for speech synthesis software.
