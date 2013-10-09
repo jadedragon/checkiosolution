@@ -1,0 +1,13 @@
+Input: An integer from 0 to 999.
+
+Output: A string representation of this number.
+
+Example:
+checkio(4)=='four'
+checkio(143)=='one hundred forty three'
+checkio(12)=='twelve'
+checkio(101)=='one hundred one'
+checkio(212)=='two hundred twelve'
+checkio(40)=='forty'
+
+How it is used: It can be useful for the speech synthesis software or automatic reports systems.
