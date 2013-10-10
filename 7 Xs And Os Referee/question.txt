@@ -1,0 +1,19 @@
+Input: A game's result. A list of strings (Unicode).
+
+Output: "X", "O" or "D". A string.
+
+Example:
+checkio([
+    "X.O",
+    "XX.",
+    "XOO"]) == "X", "Xs wins"
+checkio([
+    "OO.",
+    "XOX",
+    "XOX"]) == "O"
+checkio([
+    "OOX",
+    "XXO",
+    "OXX"]) == "D"
+
+How it is used: This task will help you to look at iterating data types. Also it is used in games' algorithms.
